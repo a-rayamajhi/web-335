@@ -1,6 +1,6 @@
 # web-335
-WEB335-330H Introduction to NoSQL (2211-DD)
 
+WEB335-330H Introduction to NoSQL (2211-DD)
 
 # contributors
 
@@ -11,3 +11,6 @@ WEB335-330H Introduction to NoSQL (2211-DD)
 <br />
 
 [buwebdev/web-335](https://github.com/buwebdev/web-335)
+
+VSCode plugins
+UMLet: theumletteam.umlet (Required to see files with .uxf extension)
