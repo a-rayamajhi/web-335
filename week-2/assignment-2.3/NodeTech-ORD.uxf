@@ -1,0 +1,20 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>159</y><w>210</w><h>70</h></coordinates><panel_attributes>CLASS
+--
+_id: String
+name: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>399</y><w>210</w><h>110</h></coordinates><panel_attributes>STUDENT
+--
+_id: String
+first_name: String
+last_name: String
+mi: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>139</y><w>210</w><h>110</h></coordinates><panel_attributes>ENROLL
+--
+_id: String
+grade: String
+_class_id: String
+_student_id: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>179</y><w>260</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1.1
+may ENROLL many STUDENTs &gt;</panel_attributes><additional_attributes>240;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>239</y><w>220</w><h>180</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1.1
+may ENROLL to many CLASSes &gt;</panel_attributes><additional_attributes>10;10;10;160</additional_attributes></element></diagram>
