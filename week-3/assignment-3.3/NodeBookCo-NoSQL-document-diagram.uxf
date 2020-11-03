@@ -1,0 +1,29 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>0</x><y>213</y><w>250</w><h>120</h></coordinates><panel_attributes>PUBLISHER DOCUMENT
+--
+{
+    _id: "5f680faf5330d6189a73e024",
+    name: "Fullstack.IO",
+    code: "1012467",
+    address: "West Hollywood, CA"
+}</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>243</y><w>240</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1.1
+</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>213</y><w>210</w><h>120</h></coordinates><panel_attributes>BOOK DOCUMENT
+-
+{
+    _id: "5f680fd78db0f818c3fe7a80",
+    name: "Full Stack React",
+    isbn:"80825236",
+    price: "59.99"
+}</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>323</y><w>40</w><h>170</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1.*
+</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>473</y><w>210</w><h>140</h></coordinates><panel_attributes>AUTHOR DOCUMENT
+--
+{
+    _id: "5f76dca3a007ac0017bf74ac",
+    first_name: "Nate",
+    last_name: "Murray",
+    phone: "323 456-5675",
+    email: "nmurray@fullstack.io"
+}</panel_attributes><additional_attributes></additional_attributes></element></diagram>

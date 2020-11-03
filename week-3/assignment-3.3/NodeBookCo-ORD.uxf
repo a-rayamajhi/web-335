@@ -1,0 +1,23 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>60</y><w>210</w><h>90</h></coordinates><panel_attributes>PUBLISHER
+--
+_id: String
+name: String
+code: String
+address: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>80</y><w>260</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1.1
+may publish many &gt;</panel_attributes><additional_attributes>240;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>50</y><w>210</w><h>110</h></coordinates><panel_attributes>BOOK
+--
+_id: String
+name: String
+isbn: String
+price: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>150</y><w>120</w><h>180</h></coordinates><panel_attributes>lt=-
+m1=1.*
+m2=1.*
+can have many &gt;</panel_attributes><additional_attributes>10;10;10;160</additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>310</y><w>210</w><h>110</h></coordinates><panel_attributes>AUTHOR
+--
+_id: String
+first_name: String
+last_name: String
+phone: String
+email: String</panel_attributes><additional_attributes></additional_attributes></element></diagram>
