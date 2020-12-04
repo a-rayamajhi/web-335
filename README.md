@@ -4,7 +4,7 @@ WEB335-330H Introduction to NoSQL (2211-DD)
 
 # contributors
 
-> Professor Massoud - Bellevue University
+> Professor Krasso - Bellevue University
 >
 > Anil Rayamajhi - Bellevue University
 
